@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kumon-math-level-m-solution-book.study/sitemap.xml
