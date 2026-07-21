@@ -666,4 +666,26 @@ details summary span:last-child {
     margin-top: 0.5rem;
 }
 
+/* Image Component Styles */
+.featured-image-container {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.featured-img {
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border-color);
+    transition: var(--transition);
+}
+
+.featured-img:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-2px);
+}
+
+
 
